@@ -4,26 +4,39 @@ body {
 }
 
 #map {
-    width: 100%;
+    width: 80%;
     height: 100vh;
+    position: relative;
+    float:right;
 }
 
-#feedback{
-    display:inline-block;
-    border-color: rgba(255, 255, 255, 0);
-    border-radius: 2em;
-    box-sizing: border-box;
-    padding: 0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
-    background-color: rgb(16, 161, 197);
-    color:#FFFFFF;
-    transition: all 0.2s;
-    font-weight: 300;
-    font-style:inherit;
+
+#inputTypes{
+    text-align: center;
+    width:20%;
+    height: 100vh;
+    line-height: 2;
+    position:relative;
+    float:left;
+    visibility:hidden;
+    font-family: 'Open Sans', sans-serif;
 }
-#feedback:hover{
-    background-color:rgb(8, 113, 139);
+
+#Coordinates{
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
 }
-    
+
+
+#menu {
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+}
     
           
